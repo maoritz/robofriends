@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const CardList = ({ robots }) => {
   return (
-    <React.Fragment>
+    <div>
       {robots.map((user, i) => {
         return (
           <Card
@@ -15,7 +15,7 @@ const CardList = ({ robots }) => {
           />
         );
       })}
-    </React.Fragment>
+    </div>
   );
 };
 
