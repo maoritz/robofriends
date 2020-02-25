@@ -7,6 +7,10 @@
 
 h1 {
   font-family: "SEGA LOGO FONT";
-  font-weight: 200;
-  color: rgb(85, 228, 233);
+  font-weight: 300;
+  color: rgb(168, 221, 210);
+}
+
+input {
+  margin: 0.6rem;
 }
