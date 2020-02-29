@@ -38,7 +38,7 @@ class App extends Component {
           <h1>RoboFriends</h1>
           <SearchBox searchChange={this.onSearchChange} />
           <Scroll>
-            <CardList robots={filteredRobots} />;
+            <CardList robots={filteredRobots} />
           </Scroll>
         </div>
       );
